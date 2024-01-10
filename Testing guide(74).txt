@@ -1,0 +1,18 @@
+=====================================================================================================================================================================================
+Task 6396: METR- Training Request Instructions Text Printing Issues
+
+Testing Guide:
+1) Login with any user who has rights in METR -> Form -> Training Request.
+2) Navigate to the Training Request Index Page.
+3) Within the Employee section, edit the details of any employee.
+4) The instruction section in UI and downloaded copy should be identical.
+
+=====================================================================================================================================================================================
+Bug 5913: METR: Disabling labels for firearms does not reflect on user profile
+
+Testing Guide:
+1) Login with any user who has the rights to access the User Screen
+2) Set some of the fields for firearm qualifications that are shown on the profile to not included.
+3) Go to the profile and observe they should not be visible.
+4) This is also applicable to the METR => Weapon Management screen.
+5) The above changes are applicable only when the inventory system is inactive.

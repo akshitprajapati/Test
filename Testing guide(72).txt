@@ -1,0 +1,36 @@
+=====================================================================================================================================================================================
+Task 6047: Weapon Management: Display inventory items as weapons if the agency has inventory turned on
+
+Testing Guide:
+1) Login with any user who has rights in Metr -> Administration -> Weapon Management.
+2) GOTO Weapon Management
+3) If the Agency has an Inventory System (Active from Record Aliases), display non-editable columns as per below (The data will be populated from the Inventory System for a particular user) :
+- On Duty (Yes/No) - If "Employee Owned" then Yes, else No
+- Weapon Type - Inventory Category Item Name
+- Manufacturer - Make
+- Model - Model
+- Serial Number - Serial Number
+- Caliber - Caliber
+4) User will not be able to add or edit weapons when the inventory system is on.
+5) If the Agency has no Inventory System, no changes are required.
+
+======================================================================================================================================================================================
+
+Task 6048: Firearm Qualifications Weapons: Display inventory items as weapons if the agency has inventory turned on
+
+Testing Guide:
+1) Login with any user who has rights in Metr -> Records -> Firearm Qualifications.
+2) Go to Firearm Qualifications.
+3) If the Agency has an Inventory System (Active from Record Aliases), the data in the following columns will be populated from the inventory system, and other columns will remain as existing:
+- On Duty (Yes/No): Drop-down - If "Employee Owned" then Yes, else No
+- Weapon Type: Drop-down - Inventory Category Item Name
+- Manufacturer: Drop-down - Make
+- Model: Drop-down - Model
+- Caliber: Textbox - Caliber
+4) All the data in the field will be populated from previously saved records.
+5) Based on the selected weapon type, the Manufacturer list will be populated, and based on the selected Manufacturer, the Model list will be populated.
+6) If the user has not saved any weapon data, retrieve the list of weapons assigned to the user from the inventory system. This list will only be incorporated into the Firearm Qualifications Participant's weapons section if the user saves the data.
+7) If the Agency has no Inventory System, no changes are required.
+
+
+======================================================================================================================================================================================

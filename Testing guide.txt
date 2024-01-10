@@ -1,0 +1,11 @@
+=====================================================================================================================================================================================
+Task 5840: Add Course Title in copy functionality for Training Records, Firearms, Exams and Testing 
+
+Testing Guide:
+1) Login with any user who has rights in Metr -> Reports -> Training Records/Firearms Qualification/Exams/Testing.
+2) Go to Training Records/Firearms Qualification/Exams/Testing(Make sure the course roster feature is on).
+3) When creating a new presentation using the copy functionality, the user should have the option to select a course title from a dropdown menu in the copy record pop-up.
+4) If the presentation is already assigned to a specific course, that course should be pre-selected in the dropdown menu.
+5) Users should be able to change the course title from the dropdown, and the new presentation created should then be assigned to the newly selected course.
+
+======================================================================================================================================================================================

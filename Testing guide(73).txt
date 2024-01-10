@@ -1,0 +1,82 @@
+=====================================================================================================================================================================================
+Task 6264: Training Plan: add 'Print to PDF' icon
+
+Testing Guide:
+1) Login with any user who has rights in METR -> Records -> Training Plan.
+2) Navigate to the Training Plan index page.
+3) Within the Employee section, edit the details of any employee..
+4) Two new fields, designated for the Training Plan title and description, should be displayed in a read-only format.
+5) Users can download the entire page content in PDF form by clicking the download button.
+
+======================================================================================================================================================================================
+Task 6206: FACTS: "Body Parts Injured" showing on printout 
+
+Testing Guide:
+1) Login with any user who has the rights to download Incident reports in ETC, FACT & VIPR.
+2) Generate a report specifically focusing on the injury section.
+3) Ensure that the content in both the generated report and the user interface (UI) is consistent. 
+
+- Points of Contact (POC) are included in the following sections of the incident report:
+  For ETC:
+	- Officer
+	- Officer Passenger	
+	- Victim
+  
+  For Facts:
+	- Chemical Agent
+	- ECD
+	- Firearm
+	- Hands
+	- Impact mutations
+	- Impact Weapons
+	- K9
+	- Officers
+	- Suspects
+	- TakeDown
+	- Victim
+  
+  For VIPR:
+	- Officer
+	- Officer Passenger
+	- Suspect
+	- Suspect Passenger
+	- Victim
+
+======================================================================================================================================================================================
+Task 6169: Command Centre- Review Groups Can't Close Reports
+
+Testing Guide:
+1) Login with any user who has rights in the Command Centre. 
+2) Generate any of the EIS Reports.
+3) Create a group for review groups.
+4) Send a report to review the group.
+5) Log in on the appropriate user and try to finalize the report.
+6) The user should be able to finalize the report without encountering any errors.
+
+======================================================================================================================================================================================
+Task 6289: METR: Supervisor notes not visible to new supervisors
+
+Testing Guide:
+1) Login with any user who has rights in METR -> Records -> Supervisor Notes.
+2) Upon selecting a supervisor, two tabs should be visible: one for current subordinates and another for former subordinates.
+3) Within the "current subordinates" tab, you will find a list of subordinates currently assigned to the selected supervisor.
+4) In the "former subordinates" tab, you will find a list of subordinates who were previously assigned to the selected supervisor.
+5) Users can access notes for former subordinates for reading purposes only.
+
+======================================================================================================================================================================================
+Task 6348: Auto save features
+
+Testing Guide:
+1) During report generation, the entered data will be automatically saved every 5 minutes for the following reports:
+For EMCOT:
+	- Complaint
+	- Compliment
+For Internal Affairs:
+	- Incident Case -> Edit Document
+For EIS:
+	- Damage to city property
+	- Emotional Events
+	- Lawsuit and Claims
+	- Search warrant saved
+	- Employee absentee form
+

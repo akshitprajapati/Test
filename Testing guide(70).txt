@@ -1,0 +1,48 @@
+=====================================================================================================================================================================================
+Task 5840: Add Course Title in copy functionality for Training Records, Firearms, Exams and Testing 
+
+Testing Guide:
+1) Login with any user who has rights in Metr -> Reports -> Training Records/Firearms Qualification/Exams/Testing.
+2) Go to Training Records/Firearms Qualification/Exams/Testing Screen(Make sure the course roster feature is turned on).
+3) When creating a new presentation using the copy functionality, the user should have the option to select a course title from a dropdown menu in the copy record pop-up.
+4) If the presentation is already assigned to a specific course, that course should be pre-selected in the dropdown menu.
+5) Users should be able to change the course title from the dropdown, and the new presentation created should then be assigned to the newly selected course.
+
+======================================================================================================================================================================================
+Task 5819: Design changes for Dashboard (METR & SHIELD)
+
+Testing Guide:
+1) We've introduced an app switcher on the left side panel of the SHIELD Dashboard. It now displays only active apps, maintaining the same order as the current app switcher.
+2) Multiple instances of LEFTA now resembles Azure board navigation, allowing users to view and navigate to specific instances by hovering over them.
+3) In METR, we've replaced "Home" with "Dashboard" with an icon.
+4) In METR, we've renamed "Dashboard" to "Portfolio" and updated the icon and breadcrumb accordingly.
+
+======================================================================================================================================================================================
+Task 5878: Display Presentations based on selected courses 
+
+Testing Guide:
+1) Login with any user who has rights in Metr -> Administration -> Manage Courses.
+2) Go to the Manage Courses Screen.
+3) Select any record type.
+4) On clicking the setting icon in the last column of the grid, a pop-up "Manage Presentations" will open.
+5) This pop-up consists of two grids: the left grid displays all unassigned presentations, while the right grid shows presentations assigned under the selected course.
+6) Users have the ability to transfer presentations between the two grids by selecting them using checkboxes and using the right and left arrows for movement.
+7) Both grids are searchable on identifier, title, and type.
+8) To save the changes, the user should click the save button located in the pop-up's footer.
+
+======================================================================================================================================================================================
+Task 5791: METR- Non-Renewed Certifications Dashboard
+
+Testing Guide:
+We have written common testing guides for all tiles under Task 5015: METR: Training Manager Dashboard.
+
+======================================================================================================================================================================================
+Task 5961: Navigation for Manage Courses under Administration Menu
+
+Testing Guide:
+1) Login with any user who has rights in METR -> Administration
+2) If the Course Roster Feature is enabled, the "Manage Course" Navigation option should be visible within the METR -> Administration.
+3) Furthermore, in the Metr -> Installer -> User Roles -> Edit screen, the "Manage Course" permission should be accessible in the Administration section of Navigation permissions when the Course Roster Feature is active.
+4) When the Course Roster Feature is disabled, the "Manage Course" option should not be visible on both screens.
+
+======================================================================================================================================================================================

@@ -1,0 +1,47 @@
+Sprint 69
+
+====================================================================================================================================================================================
+Task 5579: Add new field on Firearm Qualifications details screen
+
+Testing Guide:
+1) Login with any user who has rights in METR => Records => Firearm Qualification.
+2) GOTO METR => Records => Firearm Qualification.
+3) Add/Edit any record.
+4) Ensure that the "Enable Course Roster Feature" setting is checked in the Installer => Settings.
+5) Once the setting is enabled, user will see a "Course Title" drop-down and an "Add Course Title" link displayed after the Record Identifier.
+6) To add a new course, click on the "Add Course Title" link. This action will trigger a pop-up box containing fields for entering the Title and Description of the new course.
+7) Fill in the required fields, click on the "Add" button and close the pop-up box.
+8) Now, click on the "Course Title" drop-down and confirm that the newly added course is listed in the drop-down menu.
+9) When user deactivate the "Enable Course Roster Feature" setting, the "Course Title" drop-down and the "Add New Courses" link will no longer be visible.
+
+=====================================================================================================================================================================================
+
+=====================================================================================================================================================================================
+Task 5580: Add new field on Firearm Qualifications listing screen
+
+Testing Guide:
+1) Login with any user who has rights in METR => Records => Firearm Qualification.
+2) GOTO METR => Records => Firearm Qualification.
+3) Ensure that the "Enable Course Roster Feature" setting is checked in the Installer => Settings.
+4) In listing screen, records are grouped based on the "Course Title" field.
+5) Upon expanding a Course Title, it should display associated Firearm Qualification records under their respective Course Title.
+6) The functionality to "Expand All" and "Collapse All" should be available.
+7) Clicking on "Expand All" should reveal individual records.
+8) Clicking on "Collapse All" should display only the Course Titles.
+9) When the "Enable Course Roster Feature" setting is deactivated, the Firearm Qualification list should be visible as it was previously.
+===================================================================================================================================================================================
+
+===================================================================================================================================================================================
+Task 5695: Add courses fields to the Add popup from the Portfolio screen
+
+Testing Guide:
+1) Login with any user who has rights in METR => Records => Firearm Qualification.
+2) GOTO METR => Portfolio.
+3) Ensure that "Enable Course Roster Feature" setting is enabled within the "Installer" => "Settings" menu.
+4) Inside the Portfolio screen, proceed to the firearm qualification section and click on the "Add" button. This action will open the "Add Firearm Qualification" pop-up.
+5) In the "Add to Existing" section, when the user chooses a firearm qualification record, the user should observe the saved course title and description associated with that specific record.
+6) In the "Create New" section, users have the option to create a new firearm qualification record and assign it to an existing course title by selecting it from the course title drop-down.
+7) Additionally, the user can create a new course title while generating a new record by clicking on the "Add Course Title" link. This action will transform the course title drop-down into a text box and introduce a text area for course description input.
+8) When the user saves the record with the added new course title, first new course title will be generated, and the new record will be assigned within it.
+9) After deactivating the "Enable Course Roster Feature" setting, both the course title and description will no longer be visible in either section.
+=====================================================================================================================================================================================

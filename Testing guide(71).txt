@@ -1,0 +1,39 @@
+=====================================================================================================================================================================================
+Task 5948: Allow users to create new Transfer Requests, Electronic Breaches, After Action, and Training Requests within the METR Portfolio.
+
+Testing Guide:
+1) Login with any user who has rights in Metr -> Records -> Portfolio.
+2) Go to Portfolio.
+3) If the user has the necessary permissions to create Transfer Requests, Electronic Breaches, After Action reports, and Training Requests, the "Add" button should be accessible within the corresponding sections in the portfolio.
+4) Upon clicking the "Add" button, a new form should be generated, and the user should be automatically directed to the respective form's index page.
+5) The employee chosen within the METR Portfolio should be automatically included in the list of employees for the specific form.
+
+======================================================================================================================================================================================
+
+Task 5949: Implement a filter to display inactive users in the employee drop-down for all reports.
+
+Testing Guide:
+1) Login with any user who has rights in Metr -> Reports -> Course Attended.
+2) Go to Course Attended.
+3) User should see a checkbox labeled "Include In-Active Employees" displayed.
+4) On checking this checkbox, inactive users should be populated in the "Select Employee" dropdown menu.
+
+Same is implemented for all the reports having Select Employee drop-down.
+
+======================================================================================================================================================================================
+
+Task 5950: Allow Admin permission user to recall records rather than just the last reviewer.
+
+Testing Guide:
+1) Login with any user who has rights in Metr -> Forms -> After Action.
+2) Go to After Action.
+3) Any report currently in the "in-review" status can be recalled by an admin user, provided that the user is not the current reviewer for that report.
+
+Same is implemented for below forms:
+- Electronic breach 
+- Employee Commendation
+- Employee Evaluation
+- Training Requests
+- Transfer Requests
+
+======================================================================================================================================================================================
